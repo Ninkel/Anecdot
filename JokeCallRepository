@@ -1,0 +1,7 @@
+package com.example.demo.repository;
+
+import com.example.demo.model.JokeCall;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface JokeCallRepository extends JpaRepository<JokeCall, Long> {
+}
